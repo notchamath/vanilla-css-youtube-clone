@@ -1,0 +1,46 @@
+.search-bar{
+    display: block;
+}
+
+.video-preview{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 300px;
+    margin-right: 15px;
+}
+
+.thumbnail-row{
+    margin-bottom: 12px;
+}
+
+.thumbnail{
+    width: 300px;
+}
+
+.channel-pic{
+    display: inline-block;
+    vertical-align: top;
+
+    width: 50px;
+}
+
+.profile-pic{
+      
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+
+.video-title{
+    margin: 0;
+}
+
+.video-info{
+    display: inline-block;
+
+    width: 200px;
+}
+
+
