@@ -7,12 +7,15 @@ p{
     display: block;
 }
 
-.video-preview{
-    display: inline-block;
-    vertical-align: top;
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
 
-    width: 300px;
-    margin-right: 15px;
+.video-preview{
+
 }
 
 .thumbnail-row{
@@ -20,27 +23,27 @@ p{
 }
 
 .thumbnail{
-    width: 300px;
+    width: 100%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .channel-pic{
-    display: inline-block;
-    vertical-align: top;
 
-    width: 40px;
 }
 
 .profile-pic{
       
-    width: 100%;
+    width: 85%;
     border-radius: 50%;
 
 }
 
 .video-info{
-    display: inline-block;
-
-    width: 250px;
+    
 }
 
 .video-title{
