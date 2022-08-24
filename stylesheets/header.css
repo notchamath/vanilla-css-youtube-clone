@@ -28,6 +28,7 @@
 }
 
 .right-section{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -105,6 +106,27 @@
 
 #notifications-icon{
     height: 24px;
+}
+
+.right-section::after{
+    content: '3';
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 16px;
+    height: 16px;
+    left: 111px;
+    top: 1px;
+    border-radius: 50%;
+
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    border: 2px solid white;
+    background-color: rgb(201, 18, 18);
 }
 
 #mychannel-icon{
