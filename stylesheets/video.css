@@ -6,10 +6,6 @@
     row-gap: 40px;
 }
 
-.video-preview{
-
-}
-
 .thumbnail-row{
     margin-bottom: 12px;
 }
@@ -23,19 +19,11 @@
     grid-template-columns: 50px 1fr;
 }
 
-.channel-pic{
-
-}
-
 .profile-pic{
       
     width: 85%;
     border-radius: 50%;
 
-}
-
-.video-info{
-    
 }
 
 .video-title{
