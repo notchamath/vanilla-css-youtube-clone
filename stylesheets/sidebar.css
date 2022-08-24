@@ -3,6 +3,31 @@
 
     left: 0;
     height: 100vh;
-    width: 80px;
+    width: 75px;
+    margin-top: 5px;
     background-color: white;
 }
+
+.sidebar-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img{
+    height: 24px;
+}
+
+.sidebar-link div{
+    margin-top: 8px;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+}
+
