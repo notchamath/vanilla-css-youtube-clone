@@ -1,3 +1,5 @@
+/* Set up generic CSS: Remove default margins, declare font, set default background color */
+
 body{
     margin: 0;
     font-family: Roboto, Arial;

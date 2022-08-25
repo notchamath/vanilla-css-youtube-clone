@@ -1,4 +1,4 @@
-
+/* video grid styles: use CSS grid for the layout */
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -11,6 +11,7 @@
     margin-bottom: 25px;
 }
 
+/* layout responsive to screen size */
 @media (max-width: 1000px){
 
     .video-grid{
@@ -18,6 +19,7 @@
     }
     
 }
+
 @media (min-width: 1600px){
 
     .video-grid{
@@ -26,6 +28,7 @@
     
 }
 
+/* Video Thumbnails Styles */
 .thumbnail-row{
     position: relative;
     margin-bottom: 12px;
@@ -47,6 +50,8 @@
     background-color: black;
 }
 
+
+/* Video Info Section Styles */
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
