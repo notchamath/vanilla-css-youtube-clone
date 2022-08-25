@@ -1,10 +1,13 @@
 
 .video-grid{
     display: grid;
-    margin-left: 100px;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+    
+    margin-left: 100px;
+    margin-right: 25px;
+    margin-top: 25px;
 }
 
 .thumbnail-row{
@@ -36,13 +39,13 @@
 
 .profile-pic{
       
-    width: 85%;
+    width: 75%;
     border-radius: 50%;
 
 }
 
 .video-title{
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
