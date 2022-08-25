@@ -8,6 +8,22 @@
     margin-left: 100px;
     margin-right: 25px;
     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1000px){
+
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (min-width: 1600px){
+
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
 }
 
 .thumbnail-row{
@@ -25,7 +41,6 @@
     bottom: 11px;
     padding: 4px;
 
-    font-family: Roboto, Arial;
     font-weight: 500;
     font-size: 12px;
     color: white;
@@ -61,3 +76,6 @@
     margin-bottom: 4px;
 }
 
+.video-grid img, p{
+    cursor: pointer;
+}
